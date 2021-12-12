@@ -387,3 +387,38 @@ html{
     }
   }
 }
+// Aplikasi
+.aplikasi{
+  width: 100%;
+  margin-top: 32px;
+  &-container{
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+  }
+  &-teks{
+    // margin-right: 125px;
+    max-width: 540px;
+    & h2{
+      color: $bg-hitam;
+      font-size: $vl;
+      font-weight: 800;
+      font-family: $mukta;
+      line-height: 48px;
+      padding-bottom: 24px;
+    }
+  }
+  &-phone{
+    max-width: 475px;
+    margin-bottom: -3px;
+  }
+}
+// Instagram
+.instagram{
+  width: 100%;
+  height: 200px;
+  background-color: $bg-hitam;
+}

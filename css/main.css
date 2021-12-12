@@ -446,4 +446,48 @@ html {
   font-family: "Mukta", sans-serif;
   font-weight: 500;
 }
+
+.aplikasi {
+  width: 100%;
+  margin-top: 32px;
+}
+
+.aplikasi-container {
+  max-width: 1140px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 32px;
+}
+
+.aplikasi-teks {
+  max-width: 540px;
+}
+
+.aplikasi-teks h2 {
+  color: #333333;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Mukta", sans-serif;
+  line-height: 48px;
+  padding-bottom: 24px;
+}
+
+.aplikasi-phone {
+  max-width: 475px;
+  margin-bottom: -3px;
+}
+
+.instagram {
+  width: 100%;
+  height: 200px;
+  background-color: #333333;
+}
 /*# sourceMappingURL=main.css.map */
