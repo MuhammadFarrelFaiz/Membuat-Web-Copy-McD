@@ -120,7 +120,7 @@ button{
       text-decoration: none;
       font-size: $mm;
       font-family: $mukta;
-      color: $teks-hitam;
+      color: $bg-hitam;
       &:hover{
         color: $kuning;
         transition: 0.25s;
@@ -135,7 +135,7 @@ button{
 // Akhir Navbar
 // HTML
 html{
-  height: 2000px;
+  height: 20000px;
 }
 /* Slideshow container */
 .slideshow-container {
@@ -236,7 +236,6 @@ html{
 .container{
   margin: auto;
   max-width: 1110px;
-  margin-top: 40px;
 }
 // Promo Menarik
 .promo-menarik{
@@ -306,7 +305,7 @@ html{
   &-judul{
     text-align: center;
     font-size: $vl;
-    color: $teks-hitam;
+    color: $bg-hitam;
     font-family: $mukta;
     font-weight: 800;
   }
@@ -321,16 +320,16 @@ html{
       text-align: center;
     }
     &-isi{
-        width: 255px;
-        height: 240px;
-        border-radius: 10px;
-        box-sizing: border-box;
-      &:hover{
-        cursor: pointer;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        transition: 0.5s;
-      }
+      width: 255px;
+      height: 240px;
+      border-radius: 10px;
+      box-sizing: border-box;
+    &:hover{
+      cursor: pointer;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      transition: 0.5s;
     }
+  }
     &-gambar{
       transition: transform 0.7s;
       &:hover{
@@ -342,5 +341,49 @@ html{
   }
   & .button{
     margin-top: 50px;
+  }
+}
+
+// Momen Bahagia
+.momen-bahagia{
+  width: 100%;
+  height: 520px;
+  background-color: $kuning;
+  &-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+    & .button{
+      margin-top: 15px;
+      text-align: start;
+    }
+    & button{
+      width: 245px;
+      height: 50px;
+    }
+  }
+  &-image{
+    max-width: 585px;
+    height: 375px;
+    padding-top: 72px;
+    padding-right: 64px;
+  }
+  &-teks{
+    height: 96px;
+    line-height: 45px;
+    & h2{
+    color: $bg-hitam;
+    font-size: $vl;
+    font-family: $mukta;
+    font-weight: 800;
+    }
+    & p{
+      color: $teks-hitam;
+      opacity: 50%;
+      font-size: $mm;
+      font-family: $mukta;
+      font-weight: 500;
+    }
   }
 }

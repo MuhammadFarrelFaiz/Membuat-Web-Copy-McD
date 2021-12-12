@@ -118,7 +118,7 @@ button:hover {
   text-decoration: none;
   font-size: 18px;
   font-family: "Mukta", sans-serif;
-  color: #211d1e;
+  color: #333333;
 }
 
 .navbar-list a:hover {
@@ -133,7 +133,7 @@ button:hover {
 }
 
 html {
-  height: 2000px;
+  height: 20000px;
 }
 
 /* Slideshow container */
@@ -250,7 +250,6 @@ html {
 .container {
   margin: auto;
   max-width: 1110px;
-  margin-top: 40px;
 }
 
 .promo-menarik {
@@ -337,7 +336,7 @@ html {
 .menu-favorit-judul {
   text-align: center;
   font-size: 40px;
-  color: #211d1e;
+  color: #333333;
   font-family: "Mukta", sans-serif;
   font-weight: 800;
 }
@@ -391,5 +390,60 @@ html {
 
 .menu-favorit .button {
   margin-top: 50px;
+}
+
+.momen-bahagia {
+  width: 100%;
+  height: 520px;
+  background-color: #feb810;
+}
+
+.momen-bahagia-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 20px;
+}
+
+.momen-bahagia-content .button {
+  margin-top: 15px;
+  text-align: start;
+}
+
+.momen-bahagia-content button {
+  width: 245px;
+  height: 50px;
+}
+
+.momen-bahagia-image {
+  max-width: 585px;
+  height: 375px;
+  padding-top: 72px;
+  padding-right: 64px;
+}
+
+.momen-bahagia-teks {
+  height: 96px;
+  line-height: 45px;
+}
+
+.momen-bahagia-teks h2 {
+  color: #333333;
+  font-size: 40px;
+  font-family: "Mukta", sans-serif;
+  font-weight: 800;
+}
+
+.momen-bahagia-teks p {
+  color: #211d1e;
+  opacity: 50%;
+  font-size: 18px;
+  font-family: "Mukta", sans-serif;
+  font-weight: 500;
 }
 /*# sourceMappingURL=main.css.map */
