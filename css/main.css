@@ -207,7 +207,7 @@ html {
   -webkit-transition: background-color 0.6s ease;
   transition: background-color 0.6s ease;
   position: relative;
-  top: -50px;
+  top: -70px;
 }
 
 .active, .dot:hover {
@@ -444,7 +444,6 @@ html {
   opacity: 50%;
   font-size: 18px;
   font-family: "Mukta", sans-serif;
-  font-weight: 500;
 }
 
 .aplikasi {
